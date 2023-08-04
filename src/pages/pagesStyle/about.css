@@ -1,0 +1,82 @@
+.about-section {
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  .photo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .photo-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }  
+  .about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+.cricket-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cricket-image {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.cricket-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #666;
+}
+
+.cricket-content {
+  flex-basis: 70%;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+/* mobile devices */
+@media screen and (max-width: 715px) {
+  .cricket-image {
+    padding-top: 10px;
+  }
+  .cricket-content {
+     margin-top: 10px;
+  }
+    }
